@@ -1,0 +1,43 @@
+.DateAndTime {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 70px;
+    width: 100vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: white;
+    /* background: linear-gradient(to right, #ff512f, #dd2476); */
+    /* background: linear-gradient(to right, #2193b0, #6dd5ed); */
+    background: #24556e;
+    background: linear-gradient(314deg, rgba(36, 85, 110, 1) 7%, rgba(87, 109, 199, 1) 25%, rgba(204, 97, 170, 1) 65%, rgba(77, 56, 235, 1) 100%);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+
+    border-bottom-right-radius: 7px;
+    border-bottom-left-radius: 7px;
+
+    box-sizing: border-box;
+
+}
+
+/* background: linear-gradient(to right, #00c6ff, #0072ff);  ocean blue 
+background: linear-gradient(to right, #ff512f, #dd2476); sunset pink-orange 
+background: linear-gradient(to right, #2193b0, #6dd5ed); sky-blue */
+
+.time {
+    letter-spacing: 5px;
+    font-family: "Orbitron", sans-serif;
+
+}
+
+.date {
+    letter-spacing: 6px;
+    font-family: "Orbitron", sans-serif;
+}
+
+.lastseen {
+    font-size: 19px;
+    letter-spacing: 2px;
+    font-family: "Poppins", sans-serif;
+}
